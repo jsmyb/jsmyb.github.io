@@ -1,1 +1,0 @@
-xarabaxciq gyot en
