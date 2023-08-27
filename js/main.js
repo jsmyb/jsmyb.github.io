@@ -23,7 +23,7 @@
 		}
 	};
 
-	
+
 	var fullHeight = function() {
 
 		if ( !isMobile.any() ) {
@@ -74,7 +74,7 @@
 
 		} , { offset: '85%' } );
 	};
-
+		
 
 
 	var goToTop = function() {
@@ -146,4 +146,6 @@
 	});
 
 
+
 }());
+

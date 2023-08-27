@@ -212,6 +212,17 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
+.fh5co-cover .display-tc .profile-thumb {
+  width: 200px;
+  height: 200px;
+  background: url(images/1.png);
+  background-size: cover;
+  cursor: pointer;
+}
+.fh5co-cover .display-tc .profile-thumb.changed {
+  background-image: url(images/1.png);
+}
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
   color: #fff;

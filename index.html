@@ -57,13 +57,14 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(https://i.imgur.com/WvMtXTS.png);"></div>
+							<div class="profile-thumb" id="profileDiv" style="background: url(https://i.imgur.com/WvMtXTS.png);"></div>
+
 							<h1><span>Levon wycc Soghomonyan</span></h1>
 							<h3><span>Software Developer / Sales Manager</span></h3>
 							<p>
 								<ul class="fh5co-social-icons">
-									<li><a href="https://t.me/jsmyb" target="_blank"><i class="icon-telegram"></i></a></li>
-									<li><a href="https://twitter.com/qwqxq" target="_blank"><i class="icon-twitter2"></i></a></li>
+									<li><a href="https://t.me/ahusarsap" target="_blank"><i class="icon-telegram"></i></a></li>
+									<li><a href="https://twitter.com/subhumankillerr" target="_blank"><i class="icon-twitter2"></i></a></li>
 									<li><a href="https://github.com/jsmyb" target="_blank"><i class="icon-github2"></i></a></li>
 									<li><a href="https://www.linkedin.com/in/wycc/"  target="_blank"><i class="icon-linkedin2"></i></a></li>
 									<li><a href="#"><i class="icon-dribbble2"></i></a></li>
@@ -76,6 +77,17 @@
 		</div>
 	</header>
 
+	<script>
+
+var profileDiv = document.getElementById("profileDiv");
+var images = ["https://i.imgur.com/WvMtXTS.png", "images/1.png", "images/3.png"];
+var currentImageIndex = 0;
+
+profileDiv.addEventListener("click", function() {
+  currentImageIndex = (currentImageIndex + 1) % images.length;
+  profileDiv.style.backgroundImage = "url(" + images[currentImageIndex] + ")";
+});
+	</script>
 
 
 	<div id="fh5co-resume" class="fh5co-bg-color">
@@ -95,13 +107,13 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">B2B Sales Representative</h3>
-									<span class="company">Orders.co - 2022 - Current</span>
+									<h3 class="timeline-title">Sales & Account Management</h3>
+									<span class="company">TeamTech - 2023 - Current</span>
 								</div>
 								<div class="timeline-body">
-									<p>Prospecting and closing new business.<hr>
-										 Outbound calling as well as fielding inbound sales opportunities generated from prospective customer inquiries.
-										<hr> Proactively pursued new customers and contributing to the customer relations management report.</p>
+									<p>Drove revenue growth and exceeded sales targets.<hr>
+										Identified and capitalized on new business opportunities, fostering strong client partnerships and successful contract negotiations
+										<hr> Streamlined cross-functional collaboration, optimizing internal processes and ensuring exceptional service delivery for sustained business success.</p>
 								</div>
 							</div>
 						</li>
@@ -109,11 +121,13 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Logistics Specialist</h3>
-									<span class="company">HSV Logistics - 2021</span>
+									<h3 class="timeline-title">B2B Sales Representative</h3>
+									<span class="company">Orders.co - 2022</span>
 								</div>
 								<div class="timeline-body">
-									<p>Negotiated prices and coordinated goods transport,<hr> Communicating with freight companies and drivers.</p>
+									<p>Prospecting and closing new business.<hr>
+										Outbound calling as well as fielding inbound sales opportunities generated from prospective customer inquiries.
+									   <hr> Proactively pursued new customers and contributing to the customer relations management report.</p>
 								</div>
 							</div>
 						</li>
@@ -145,7 +159,7 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Remote Student</h3>
-									<span class="company">Tumo Labs 2022 - Present</span>
+									<span class="company">Tumo Labs 2023 - Present</span>
 								</div>
 								<div class="timeline-body">
 									<p>Python Programming,<hr> Javascript, Frameworks & SQL, <hr> Machine Learning.</p>
@@ -157,7 +171,7 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Remote Student</h3>
-									<span class="company">42 Yerevan 2021 - Present</span>
+									<span class="company">42 Yerevan 2021 - 2023</span>
 								</div>
 								<div class="timeline-body">
 									<p>C / C++ Programming,<hR>Unix Shell Scripting,<hr>
@@ -170,7 +184,7 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Bachelors Degree</h3>
-									<span class="company">ANAU 2017 - 2021</span>
+									<span class="company">ANAU 2017 - 2022</span>
 								</div>
 								<div class="timeline-body">
 									<p>Finances & Marketing.</p>
@@ -320,76 +334,7 @@
 					<div class="chart" data-percent="66"><span><strong>Unix/Shell</strong>66%</span></div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="progress-wrap">
-						<h3><span class="name-left">N/A</span><span class="value-right">95%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">N/A</span><span class="value-right">90%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">N/A</span><span class="value-right">80%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">N/A</span><span class="value-right">85%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-						  </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="progress-wrap">
-						<h3><span class="name-left">N/A</span><span class="value-right">100%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">N/A</span><span class="value-right">70%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-striped active" role="progressbar"
-						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">N/A</span><span class="value-right">85%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">N/A</span><span class="value-right">75%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-						  </div>
-						</div>
-					</div>
-				</div>
-			</div>
+			
 		</div>
 	</div>
 
